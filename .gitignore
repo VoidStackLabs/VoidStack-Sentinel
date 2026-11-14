@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large files)
+data/raw/*
+!data/raw/.gitkeep
+
+# Model artifacts
+models/*
+!models/.gitkeep
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# Reports output
+reports/*
+!reports/.gitkeep
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
